@@ -1,6 +1,6 @@
 from typing import List, Dict, Optional
 import random
-from .word_repository import WordRepository
+from word_repository import WordRepository
 import logging
 
 logger = logging.getLogger(__name__)

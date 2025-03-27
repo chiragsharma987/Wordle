@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from .game import WordleGame
+from game import WordleGame
 import logging
 import os
 from dotenv import load_dotenv
